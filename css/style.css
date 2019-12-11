@@ -141,7 +141,6 @@ h2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid #203556;
 }
 
 .w-img {
@@ -153,7 +152,6 @@ h2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid #203556;
 }
 
 .r-img {
@@ -165,7 +163,6 @@ h2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid #203556;
 }
 
 .m-img {
@@ -177,7 +174,6 @@ h2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid #203556;
 }
 
 .index-footer {
@@ -187,7 +183,7 @@ h2 {
 
 p {
     padding: 5px;
-    font-size: 15px;
+    font-size: 18px;
     text-align: center;
 }
 
@@ -203,4 +199,7 @@ p {
 
 h4 {
     text-align: center;
+    font-size: 24px;
+    border: 1px solid black;
+    padding: 5px;
 }
