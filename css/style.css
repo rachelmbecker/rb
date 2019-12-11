@@ -19,53 +19,72 @@ html{
 }
 
 body {
-    background-color: #d7e1f0;
+    background-color: #24305E;
+    backdrop-filter: gradient;
     font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    padding: 7px;
+    font-size: 16px;
 }
 
 footer {
     text-align: center;
-    background-color: #203556;
+    background-color: #24305E;
     color: white;
     line-height: 15px;
-    /* padding: 5px; */
+}
+
+footer p {
+    text-align: center;
 }
 
 h3 {
     font-size: 20px;
     padding: 15px;
     text-align: center;
+    color: #24305E;
 }
 
 /* navigation */
-.all-nav ul {
-    list-style-type: none;
+.all-nav {
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background-color: #203556;
+    text-align: center;
+    list-style: none;
+    background-color: #A8D0E6;
 }
 
 .all-nav li a {
-    display: block;
-    color: white;
-    text-align: center;
+    display: inline-block;
+    color: #24305E;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 .all-nav li {
-    float: left;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    display: inline;
 }
 
 nav a:hover {
     text-decoration: none;
-    background: #5e87c4;
+    background: #A8D0E6;
     text-align: center;
 }
 
 .current {
-    background-color: #5e87c4;
+    background-color: #A8D0E6;
 }
 
 .all-header img {
@@ -79,15 +98,14 @@ nav a:hover {
 }
 
 .all-header {
-    /* text-align: center; */
-    background-color: #203556;
+    text-align: center;
+    background-color: #24305E;
 }
 
-/* .all-header h1 {
-    font-size: 50px;
-    padding: 5px;
-    color: white;
-} */
+h1 {
+    font-size: 40px;
+    padding-top: 15px;
+}
 
 h2 {
     font-size: 35px;
@@ -96,45 +114,55 @@ h2 {
     text-decoration: underline;
 }
 
+/* all pages */
 
-/* index page desktop */
-.index-container {
+.container {
     display: grid;
-    grid-template-rows: .2fr 3fr .1fr;
-    grid-template-columns: .2fr 1fr .2fr;
-    grid-row-gap: 5px;
+    grid-template-columns: .3fr .8fr .8fr .3fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    width: 100vw;
 }
 
+/* index page desktop */
 .intro {
-    grid-column: 2;
-    grid-row: 1;
+    grid-column: 2 / span 2;
     text-align: center;
-    padding: 10px;
+    padding: 15px;
     font-size: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.intro img {
+    width: 50%;
+    height: 50%;
+}
+
+.intro:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.c1 {
+    padding: 2px 16px;
+}
+
+.intro p {
+    font-size: 25px;
 }
 
 .sample {
-    grid-row: 2;
-    grid-column: 2;
-}
-
-.sample-container {
-    display: grid;
-    grid-template-rows: .5fr .5fr .5fr .5fr;
-    grid-template-columns: 1fr;
-    grid-column-gap: 15px;
-    grid-row-gap: 15px;
+    grid-column: 2 / span 2;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
 }
 
 .sample p {
+    font-size: 23px;
     text-align: center;
-    padding: 5px;
-    font-size: 20px;
 }
 
 .d-img {
-    grid-row: 1;
-    grid-column: 1;
     padding: 5px;
     width: 50%;
     height: 80%;
@@ -144,8 +172,6 @@ h2 {
 }
 
 .w-img {
-    grid-row: 2;
-    grid-column: 1;
     padding: 5px;
     width: 50%;
     height: 80%;
@@ -155,8 +181,6 @@ h2 {
 }
 
 .r-img {
-    grid-row: 3;
-    grid-column: 1;
     padding: 5px;
     width: 50%;
     height: 80%;
@@ -166,8 +190,6 @@ h2 {
 }
 
 .m-img {
-    grid-row: 4;
-    grid-column: 1;
     padding: 5px;
     width: 50%;
     height: 80%;
@@ -176,19 +198,9 @@ h2 {
     margin-right: auto;
 }
 
-.index-footer {
-    grid-row: 3;
-    grid-column: 1 / span 3;
-}
-
-p {
-    padding: 5px;
-    font-size: 18px;
-    text-align: center;
-}
-
 /* deloitte page */
-.projectimg1{
+.projectimg1 {
+    grid-column: 2 / span 2;
     width: 70%;
     height: 60%;
     display: block;
@@ -197,9 +209,26 @@ p {
     padding: 5px;
 }
 
+.title {
+    grid-column: 2 / span 2;
+}
+
+.deloitte {
+    grid-column: 2 / span 2;
+}
+
+.step1 {
+    border: 1px solid #24305E;
+}
+
+.step2 {
+    border: 1px solid #24305E;
+}
+
 h4 {
     text-align: center;
     font-size: 24px;
-    border: 1px solid black;
+    border: 1px solid #24305E;
     padding: 5px;
+    color: #24305E;
 }
