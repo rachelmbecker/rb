@@ -30,14 +30,14 @@ a {
 }
 
 p {
-    padding: 7px;
-    font-size: 16px;
+    padding: 5px;
+    font-size: 18px;
 }
 
 footer {
     text-align: center;
-    background-color: #A8D0E6;
-    color: #24305E;
+    background-color: #2B2B2B;
+    color: whitesmoke;
     line-height: 15px;
 }
 
@@ -47,40 +47,56 @@ footer p {
 
 /* navigation */
 .all-nav {
-    margin: 0;
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 180px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #2B2B2B; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    /* margin: 0;
     padding: 0;
     text-align: center;
     list-style: none;
-    background-color: #A8D0E6;
+    background-color: #2B2B2B; */
 }
 
 .all-nav li a {
-    display: inline-block;
-    color: #24305E;
-    padding: 14px 16px;
+    padding: 6px 8px 6px 16px;
     text-decoration: none;
+    font-size: 25px;
+    color: whitesmoke;
+    display: block;
+    border-bottom: 1px dotted whitesmoke;
+    /* display: inline-block;
+    color: whitesmoke;
+    padding: 14px 16px;
+    text-decoration: none; */
 }
 
 .all-nav li {
     text-decoration: none;
     font-size: 15px;
     /* color: white; */
-    text-align: center;
+    /* text-align: center; */
     display: inline;
 }
 
 nav a:hover {
     text-decoration: none;
-    background: whitesmoke;
+    background: #24305E;
     text-align: center;
 }
 
 .current {
-    background-color: whitesmoke;
+    background-color: #24305E;
 }
 
-.all-header img {
+.all-nav img {
     max-height: 150px;
+    max-width: 180px;
 }
 
 .all-header img:hover {
@@ -114,7 +130,7 @@ h3 {
 
 .container {
     display: grid;
-    grid-template-columns: .2fr 1fr 1fr .2fr;
+    grid-template-columns: 160px .2fr 1fr 1fr .2fr;
     grid-column-gap: 15px;
     grid-row-gap: 15px;
     width: 100vw;
@@ -122,7 +138,7 @@ h3 {
 
 /* index page desktop */
 .intro {
-    grid-column: 2 / span 2;
+    grid-column: 3 / span 2;
     text-align: center;
     padding: 15px;
     font-size: 20px;
@@ -142,7 +158,7 @@ h3 {
 }
 
 .sample {
-    grid-column: 2 / span 2;
+    grid-column: 3 / span 2;
 }
 
 .sample p {
@@ -151,8 +167,15 @@ h3 {
 }
 
 /* deloitte page */
-.projectimg1 {
-    grid-column: 2 / span 2;
+
+
+.step1 {
+    grid-column: 3;
+}
+.p1-image {
+    grid-column: 4;
+}
+.p1-image img{
     width: 70%;
     height: 60%;
     display: block;
@@ -161,8 +184,26 @@ h3 {
     padding: 5px;
 }
 
+.step4 {
+    grid-column: 3;
+}
+.p4-image {
+    grid-column: 4;
+}
+
+.p4-image img {
+    width: 70%;
+    height: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+
+/* index */
 .one {
-    grid-column: 2 /span 2;
+    grid-column: 3 /span 2;
 }
 .one img {
     max-width: 40%;
@@ -172,7 +213,7 @@ h3 {
     border: 1px solid #24305E;
 }
 .three {
-    grid-column: 2 /span 2;
+    grid-column: 3 /span 2;
 }
 .three img {
     max-width: 40%;
@@ -182,7 +223,7 @@ h3 {
     border: 1px solid #24305E;
 }
 .two {
-    grid-column: 2 /span 2;
+    grid-column: 3 /span 2;
 }
 .two img {
     max-width: 40%;
@@ -192,7 +233,7 @@ h3 {
     border: 1px solid #24305E;
 }
 .four {
-    grid-column: 2 /span 2;
+    grid-column: 3 /span 2;
 }
 .four img {
     max-width: 40%;
@@ -203,23 +244,20 @@ h3 {
 }
 
 .title {
-    grid-column: 2 / span 2;
-}
-
-.deloitte {
-    grid-column: 2 / span 2;
+    grid-column: 3 / span 2;
 }
 
 h4 {
     text-align: center;
     font-size: 24px;
-    /* border: 1px solid #24305E; */
     padding: 5px;
-    /* color: white; */
 }
 
-.projectimg2 {
-    grid-column: 2 / span 2;
+.p2-image{
+    grid-column: 4;
+}
+
+.p2-image img {
     width: 70%;
     height: 60%;
     display: block;
@@ -228,8 +266,16 @@ h4 {
     padding: 5px;
 }
 
+.step2 {
+    grid-column: 3;
+}
+
+.step3 {
+    grid-column: 3;
+}
+
 .before {
-    grid-column: 2;
+    grid-column: 3;
 }
 
 .before img {
@@ -238,7 +284,7 @@ h4 {
 }
 
 .after {
-    grid-column: 3;
+    grid-column: 4;
 }
 
 .after img {
@@ -247,6 +293,15 @@ h4 {
 }
 
 .resume {
-    grid-column: 2 / span 2;
+    grid-column: 3 / span 2;
     text-align: center;
+}
+input {
+    min-height: 50px;
+    min-width: 300px;
+}
+
+.message{
+    min-height: 300px;
+    min-width: 300px;
 }
