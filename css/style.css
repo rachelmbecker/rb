@@ -177,14 +177,6 @@ h3 {
     grid-column: 2 / span 2;
 }
 
-/* .step1 {
-    border: 1px solid #24305E;
-}
-
-.step2 {
-    border: 1px solid #24305E;
-} */
-
 h4 {
     text-align: center;
     font-size: 24px;
@@ -201,4 +193,22 @@ h4 {
     margin-left: auto;
     margin-right: auto;
     padding: 5px;
+}
+
+.before {
+    grid-column: 2;
+}
+
+.before img {
+    max-width: 90%;
+    padding: 10px;
+}
+
+.after {
+    grid-column: 3;
+}
+
+.after img {
+    max-width: 90%;
+    padding: 10px;
 }
