@@ -6,7 +6,7 @@ html{
 .skip a {
     background: white;
     left: 0;
-    padding: 6px;
+    padding: 5px;
     position: absolute;
     top: -40px;
     -webkit-transition: top 1s ease-out;
@@ -50,24 +50,39 @@ footer p {
     text-align: center;
 }
 
-/* navigation */
-.all-nav {
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 180px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    left: 0;
-    background-color: #2B2B2B; /* Black */
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 20px;
-    /* margin: 0;
-    padding: 0;
+/* headerse */
+h1 {
+    font-size: 40px;
+}
+h2 {
+    font-size: 30px;
+    padding: 5px;
+    padding-top: 10px;
     text-align: center;
-    list-style: none;
-    background-color: #2B2B2B; */
+}
+h3 {
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+}
+h4 {
+    text-align: center;
+    font-size: 24px;
+    padding: 5px;
 }
 
+/* navigation */
+.all-nav {
+    height: 100%;
+    width: 180px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #2B2B2B;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
 .all-nav li a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
@@ -75,65 +90,26 @@ footer p {
     color: whitesmoke;
     display: block;
     border-bottom: 1px dotted whitesmoke;
-    /* display: inline-block;
-    color: whitesmoke;
-    padding: 14px 16px;
-    text-decoration: none; */
 }
-
 .all-nav li {
     text-decoration: none;
     font-size: 15px;
-    /* color: white; */
-    /* text-align: center; */
     display: inline;
 }
-
 nav a:hover {
     text-decoration: none;
     background: #24305E;
     text-align: center;
 }
-
 .current {
     background-color: #24305E;
 }
-
 .all-nav img {
     max-height: 150px;
     max-width: 180px;
 }
 
-.all-header img:hover {
-    opacity: 90%;
-}
-
-.all-header {
-    text-align: center;
-    background-color: #2B2B2B;
-}
-
-h1 {
-    font-size: 40px;
-    /* padding: 15px; */
-}
-
-h2 {
-    font-size: 30px;
-    padding: 5px;
-    padding-top: 10px;
-    text-align: center;
-}
-
-h3 {
-    font-size: 20px;
-    padding: 5px;
-    /* color: white; */
-    text-align: center;
-}
-
 /* all pages */
-
 .container {
     display: grid;
     grid-template-columns: 180px .2fr 1fr 1fr .2fr;
@@ -268,16 +244,11 @@ h3 {
     border: 1px solid #24305E;
 }
 
+
+/* deloitte */
 .title {
     grid-column: 3 / span 2;
 }
-
-h4 {
-    text-align: center;
-    font-size: 24px;
-    padding: 5px;
-}
-
 .p2-image{
     grid-column: 4;
 }
@@ -354,7 +325,7 @@ input {
         max-width: 100px;
     }
     .container {
-        grid-template-columns: 100px .01fr 1fr .01fr;
+        grid-template-columns: 100px 1fr;
     }
     footer {
         padding-left: 100px;
@@ -363,22 +334,25 @@ input {
 
     /* mobile index */
     .intro {
-        grid-column: 3;
+        grid-column: 2;
         text-align: center;
         padding: 15px;
         font-size: 20px;
     }
+    .sample {
+        grid-column: 2;
+    }
     .one {
-        grid-column: 3;
+        grid-column: 2;
     }
     .two {
-        grid-column: 3;
+        grid-column: 2;
     }
     .three {
-        grid-column: 3;
+        grid-column: 2;
     }
     .four {
-        grid-column: 3;
+        grid-column: 2;
     }
 
   }
