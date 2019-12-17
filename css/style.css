@@ -71,12 +71,12 @@ footer p {
 
 nav a:hover {
     text-decoration: none;
-    background: #A8D0E6;
+    background: whitesmoke;
     text-align: center;
 }
 
 .current {
-    background-color: white;
+    background-color: whitesmoke;
 }
 
 .all-header img {
