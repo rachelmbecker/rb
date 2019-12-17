@@ -161,6 +161,47 @@ h3 {
     padding: 5px;
 }
 
+.one {
+    grid-column: 2 /span 2;
+}
+.one img {
+    max-width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #24305E;
+}
+.three {
+    grid-column: 2 /span 2;
+}
+.three img {
+    max-width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #24305E;
+}
+.two {
+    grid-column: 2 /span 2;
+}
+.two img {
+    max-width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #24305E;
+}
+.four {
+    grid-column: 2 /span 2;
+}
+.four img {
+    max-width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #24305E;
+}
+
 .title {
     grid-column: 2 / span 2;
 }
