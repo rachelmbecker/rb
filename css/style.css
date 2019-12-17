@@ -25,7 +25,7 @@ body {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: underline;
     color: #24305E;
 }
 
@@ -211,4 +211,9 @@ h4 {
 .after img {
     max-width: 90%;
     padding: 10px;
+}
+
+.resume {
+    grid-column: 2 / span 2;
+    text-align: center;
 }
