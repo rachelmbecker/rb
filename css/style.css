@@ -354,9 +354,31 @@ input {
         max-width: 100px;
     }
     .container {
-        grid-template-columns: 100px .01fr 1fr 1fr .01fr;
+        grid-template-columns: 100px .01fr 1fr .01fr;
     }
     footer {
         padding-left: 100px;
     }
+
+
+    /* mobile index */
+    .intro {
+        grid-column: 3;
+        text-align: center;
+        padding: 15px;
+        font-size: 20px;
+    }
+    .one {
+        grid-column: 3;
+    }
+    .two {
+        grid-column: 3;
+    }
+    .three {
+        grid-column: 3;
+    }
+    .four {
+        grid-column: 3;
+    }
+
   }
