@@ -33,6 +33,10 @@ p {
     padding: 5px;
     font-size: 18px;
 }
+ol {
+    padding: 5px;
+    font-size: 18px;
+}
 
 footer {
     text-align: center;
@@ -131,7 +135,7 @@ h3 {
 
 .container {
     display: grid;
-    grid-template-columns: 160px .2fr 1fr 1fr .2fr;
+    grid-template-columns: 180px .2fr 1fr 1fr .2fr;
     grid-column-gap: 15px;
     grid-row-gap: 15px;
     width: 100vw;
@@ -177,8 +181,8 @@ h3 {
     grid-column: 4;
 }
 .p1-image img{
-    width: 70%;
-    height: 60%;
+    width: 100%;
+    height: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -193,8 +197,39 @@ h3 {
 }
 
 .p4-image img {
-    width: 70%;
-    height: 60%;
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+.step2 {
+    grid-column: 3;
+}
+.p2-image {
+    grid-column: 4;
+}
+
+.p2-image img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+.step3 {
+    grid-column: 3;
+}
+.p3-image {
+    grid-column: 4;
+}
+
+.p3-image img{
+    width: 100%;
+    height: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -204,43 +239,31 @@ h3 {
 
 /* index */
 .one {
-    grid-column: 3 /span 2;
+    grid-column: 3;
 }
 .one img {
-    max-width: 40%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 100%;
     border: 1px solid #24305E;
 }
 .three {
-    grid-column: 3 /span 2;
+    grid-column: 3;
 }
 .three img {
-    max-width: 40%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 100%;
     border: 1px solid #24305E;
 }
 .two {
-    grid-column: 3 /span 2;
+    grid-column: 4;
 }
 .two img {
-    max-width: 40%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 100%;
     border: 1px solid #24305E;
 }
 .four {
-    grid-column: 3 /span 2;
+    grid-column: 4;
 }
 .four img {
-    max-width: 40%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 100%;
     border: 1px solid #24305E;
 }
 
@@ -259,8 +282,8 @@ h4 {
 }
 
 .p2-image img {
-    width: 70%;
-    height: 60%;
+    width: 100%;
+    height: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -311,6 +334,9 @@ input {
     grid-column: 3 / span 2;
 }
 .lessons {
+    grid-column: 3;
+}
+.web-link{
     grid-column: 3;
 }
 
