@@ -254,6 +254,12 @@ nav a:hover {
 /*     border: 1px solid #24305E; */
 }
 
+.images {
+    grid-column: 4;
+}
+.images img{
+    max-width: 100%;
+}
 
 /* deloitte */
 .title {
