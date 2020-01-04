@@ -220,28 +220,28 @@ nav a:hover {
 }
 .one img {
     max-width: 100%;
-    border: 1px solid #24305E;
+/*     border: 1px solid #24305E; */
 }
 .three {
     grid-column: 3;
 }
 .three img {
     max-width: 100%;
-    border: 1px solid #24305E;
+/*     border: 1px solid #24305E; */
 }
 .two {
     grid-column: 4;
 }
 .two img {
     max-width: 100%;
-    border: 1px solid #24305E;
+/*     border: 1px solid #24305E; */
 }
 .four {
     grid-column: 4;
 }
 .four img {
     max-width: 100%;
-    border: 1px solid #24305E;
+/*     border: 1px solid #24305E; */
 }
 
 
