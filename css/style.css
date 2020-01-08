@@ -327,7 +327,9 @@ input {
 .web-link{
     grid-column: 3;
 }
-
+.take {
+    grid-column: 3/span 2;
+}
 
 @media screen and (max-width: 550px) {
     .all-nav {
