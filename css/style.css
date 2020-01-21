@@ -115,6 +115,7 @@ nav a:hover {
     grid-column-gap: 15px;
     grid-row-gap: 15px;
     width: 100vw;
+    justify-content: center;
 }
 
 /* index page desktop */
@@ -252,6 +253,7 @@ nav a:hover {
 }
 .four img {
     max-width: 100%;
+    padding-top: 6px;
 /*     border: 1px solid #24305E; */
 }
 
