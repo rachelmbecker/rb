@@ -230,6 +230,7 @@ nav a:hover {
 }
 .one img {
     max-width: 100%;
+    max-height: 350px;
 /*     border: 1px solid #24305E; */
 }
 .three {
