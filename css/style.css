@@ -130,6 +130,9 @@ nav a:hover {
     width: 50%;
     height: 50%;
 }
+.resume p {
+    font-size: 30px;
+}
 
 .c1 {
     padding: 2px 16px;
