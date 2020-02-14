@@ -118,6 +118,9 @@ nav a:hover {
     justify-items: center;
 }
 
+.res-title{
+    grid-column: 3/span 2;
+}
 /* index page desktop */
 .intro {
     grid-column: 3 / span 2;
