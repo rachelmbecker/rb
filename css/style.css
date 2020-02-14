@@ -241,7 +241,7 @@ nav a:hover {
 
 /* index */
 .one {
-    grid-column: 3;
+    grid-column: 4;
 }
 .one img {
     max-width: 100%;
@@ -249,7 +249,7 @@ nav a:hover {
 /*     border: 1px solid #24305E; */
 }
 .three {
-    grid-column: 3;
+    grid-column: 4;
 }
 .three img {
     max-width: 100%;
@@ -281,7 +281,7 @@ nav a:hover {
     max-height: 250px;
 }
 .six {
-    grid-column: 3;
+    grid-column: 4;
 }
 .six img {
     max-width: 100%;
