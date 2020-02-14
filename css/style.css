@@ -248,6 +248,7 @@ nav a:hover {
     grid-column: 4;
 }
 .two img {
+    padding-top: 6px;
     max-width: 100%;
 /*     border: 1px solid #24305E; */
 }
