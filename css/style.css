@@ -393,5 +393,8 @@ input {
     .four {
         grid-column: 2;
     }
+    .six {
+        grid-column: 2;
+    }
 
   }
